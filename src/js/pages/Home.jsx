@@ -41,7 +41,7 @@ export default class App extends Component {
             supplier={_dataArr}
             itemHeight={125}
             itemsDistance={10}
-            overIndexThreshold={4}
+            overIndexThreshold={3}
           />
         </div>
 

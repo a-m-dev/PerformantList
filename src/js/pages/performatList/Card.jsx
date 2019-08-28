@@ -11,6 +11,7 @@ class Card extends React.PureComponent {
       <div 
         className='card'
         style={{
+          width: `calc(100% - ${itemsDistance}px)`,
           margin: `${itemsDistance / 2}px`,
           height: itemHeight,
           top: topOffset

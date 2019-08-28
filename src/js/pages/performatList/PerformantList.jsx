@@ -62,7 +62,7 @@ class PerformantList extends React.PureComponent {
 
     for(let i = startIndex; i <= stopIndex; i++) {
 
-      const topOffset = i * (itemHeight + itemsDistance)
+      const topOffset = i * (itemHeight + (itemsDistance / 2) )
 
       inRangeEls.push( 
         { data: supplier[i], itemHeight, itemsDistance, topOffset }
