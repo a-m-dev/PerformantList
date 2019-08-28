@@ -39,8 +39,9 @@ export default class App extends Component {
 
           <PerformantList 
             supplier={_dataArr}
-            itemHeight={150}
-
+            itemHeight={125}
+            itemsDistance={10}
+            overIndexThreshold={4}
           />
         </div>
 
